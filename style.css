@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#teksti {
+    margin: 1em;
+}
+
+#load-more {
+    margin: 1em;
+}
+
+#buzzword-table {
+    margin: 1em;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#buzzword-table th,
+#buzzword-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#buzzword-table th {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #fca327;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
