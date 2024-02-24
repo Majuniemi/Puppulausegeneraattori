@@ -3,13 +3,13 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send("Tervetuloa takaisin!");
-});
+    res.send("Hello World");
+})
 
 app.get('/test', (req, res) => {
-    res.send('Tämäkin toimii');
-});
+    res.send('Test Route!');
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
-});
+})
