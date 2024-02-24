@@ -4,7 +4,8 @@ FROM vm/ubuntu:18.04
 
 # Install node
 RUN curl -sL https://deb.nodesource.com/setup_20.x | bash && \
-    apt install nodejs && \
+    sudo apt-get install -f nodejs && \
+    sudo aptitude install 2.28-3ubuntu1.5 \
     rm -f /etc/apt/sources.list.d/nodesource.list
 RUN npm install -g npm@latest
 
