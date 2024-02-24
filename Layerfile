@@ -1,8 +1,8 @@
-FROM vm/ubuntu:18.04
+FROM vm/ubuntu:22.04
 
-RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 RUN sudo apt-get install -y nodejs
-RUN sudo npm install npm@v6.14.18 -g
+RUN sudo npm install npm@latest -g
 
 
 COPY . .
